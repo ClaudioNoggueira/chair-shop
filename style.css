@@ -6,6 +6,8 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +18,7 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -30,6 +32,8 @@ section {
 }
 
 h2 {
+  font-size: 36px;
+  letter-spacing: -.5px;
   margin-bottom: 48px;
 }
 
@@ -56,10 +60,15 @@ header {
 }
 
 h1 {
+  font-size: 44px;
+  letter-spacing: -1px;
+  line-height: 1.1;
   margin-bottom: 24px;
 }
 
 .header-text {
+  font-size: 18px;
+  line-height: 1.7;
   margin-bottom: 24px;
 }
 
@@ -72,10 +81,13 @@ img {
 }
 
 .features-title {
+  font-size: 20px;
   margin-bottom: 16px;
 }
 
 .features-text {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* TESTIMONIAL */
@@ -88,6 +100,7 @@ img {
 }
 
 .testimonial-box h2 {
+  font-size: 24px;
   margin-bottom: 24px;
 }
 
@@ -102,6 +115,7 @@ img {
 }
 
 h3 {
+  font-size: 20px;
   margin-bottom: 24px;
 }
 
@@ -111,8 +125,8 @@ h3 {
 }
 
 .chair-details li {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -126,9 +140,11 @@ h3 {
 
 .chair-price {
   display: flex;
+  font-size: 20px;
   justify-content: space-between;
 }
 
 footer {
+  font-size: 14px;
   margin-bottom: 48px;
 }
